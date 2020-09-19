@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-usereducer/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/react-usereducer/static/js/main.787155c6.chunk.js",
+    "main.js.map": "/react-usereducer/static/js/main.787155c6.chunk.js.map",
+    "runtime-main.js": "/react-usereducer/static/js/runtime-main.5fc61e4e.js",
+    "runtime-main.js.map": "/react-usereducer/static/js/runtime-main.5fc61e4e.js.map",
+    "static/js/2.29028831.chunk.js": "/react-usereducer/static/js/2.29028831.chunk.js",
+    "static/js/2.29028831.chunk.js.map": "/react-usereducer/static/js/2.29028831.chunk.js.map",
+    "index.html": "/react-usereducer/index.html",
+    "precache-manifest.3641a757ec0a960eec6d262e430b6416.js": "/react-usereducer/precache-manifest.3641a757ec0a960eec6d262e430b6416.js",
+    "service-worker.js": "/react-usereducer/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/react-usereducer/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.29028831.chunk.js.LICENSE.txt": "/react-usereducer/static/js/2.29028831.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fc61e4e.js",
+    "static/js/2.29028831.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.787155c6.chunk.js"
+  ]
+}
