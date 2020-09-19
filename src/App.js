@@ -1,11 +1,15 @@
 import React from 'react';
+import {BrowserRouter as Router, Route} from "react-router-dom";
+import Counter from './components/counter.component';
+import Navbar from './components/navbar.component';
 
 
-function App() {
-  return (
-    <div className="App">
-      <h1>React Hooks - useReducer</h1>
-    </div>
+function App() { 
+  return (    
+    <Router>
+      <Navbar />
+      <Route path="/react-usereducer/counter" component = {Counter} />
+    </Router>
   );
 }
 
