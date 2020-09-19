@@ -64,20 +64,22 @@ export default function Login(){
         e.preventDefault();
         dispatch({type:'login'});
     }
+    function onChangeUsername(e){
+        dispatch({type:'field', field:'username', value:e.target.value})
+    }
+    function onChangePassword(e){
+        dispatch({type:'field', field:'password', value:e.target.value})
+    }
 
     return (
         <div>
             <div className="login-container">
-                {isLoggedIn?(<div><h2>Welcome {username}</h2>
+                {isLoggedIn?(<div><h2>Welcome {username}!</h2>
                 <button onClick={()=>dispatch({type:'logout'})}>Logout</button></div>): (
                 <form onSubmit={onSubmitLoginInfo}>
                     <h5>Login</h5>
-                    <input type="text" value={username} 
-                    onChange={e=> dispatch({type:'field', field:'username', value:e.target.value})} 
-                        className="form-control"/>                    
-                      <input type="password" value={password} 
-                    onChange={e=> dispatch({type:'field', field:'password', value:e.target.value})} 
-                        className="form-control"/> 
+                    <input type="text" value={username} onChange={onChangeUsername} className="form-control"/>                    
+                      <input type="password" value={password} onChange={onChangePassword} className="form-control"/> 
                     <button type="submit" className="form-control btn btn-primary">Login</button>
                 </form>
                 )}
