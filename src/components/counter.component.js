@@ -1,8 +1,9 @@
 import React, {useReducer} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import ReactMarkdown from 'react-markdown';
 // import ReactMarkdown from 'react-markdown';
+// import counterText from './counter-markdown.component.js'
+
 
 
 
@@ -40,7 +41,7 @@ export default function Counter (){
             </div>
         </div>
         <div>
-            {/* <ReactMarkdown source={}/> */}
+            {/* <ReactMarkdown source={counterText}/> */}
         </div>
     </div>
     );

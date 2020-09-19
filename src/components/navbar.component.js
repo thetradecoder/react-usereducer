@@ -16,6 +16,7 @@ export default function Navbar(){
                     <div id="main-menu" className="collapse navbar-collapse">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item"><Link to="/react-usereducer/counter" className="nav-link">Counter</Link></li>
+                            <li className="nav-item"><Link to="/react-usereducer/login" className="nav-link">Login</Link></li>
                         </ul>
                     </div>       
             </div>
