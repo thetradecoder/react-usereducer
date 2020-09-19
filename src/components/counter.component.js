@@ -1,5 +1,7 @@
-import React, {useState, useReducer} from 'react';
+import React, {useReducer} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
+
 
 
 const PLUS ="PLUS";
@@ -27,10 +29,15 @@ export default function Counter (){
     }
     return(
     <div className="container">
+        <div className="counter-div">
+            <h1 className="text-center pt-2 pb-3">{count}</h1>
+            <div className="d-flex justify-content-center pt-5 btn-group">
+                <button onClick={decrement} className="btn btn-danger">Decrease by 1</button>
+                <button onClick={increment} className="btn btn-success">Increase by 1</button>                
+            </div>
+        </div>
         <div>
-            <h1>{count}</h1>
-            <button onClick={increment} className="btn btn-success">Inc</button>
-            <button onClick={decrement} className="btn btn-danger">Inc</button>
+            
         </div>
     </div>
     );
