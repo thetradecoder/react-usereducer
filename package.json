@@ -1,6 +1,7 @@
 {
   "name": "react-usereducer",
   "version": "1.0.0",
+  "homepage":"https://thetradecoder.github.io/react-usereducer",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
