@@ -1,16 +1,11 @@
 import React, {useReducer} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import ReactMarkdown from 'react-markdown';
-// import ReactMarkdown from 'react-markdown';
-
-
-
 
 const PLUS ="PLUS";
 const MINUS = "MINUS";
 
-function reducer(state, action){
+function reducer(state, action){    
     switch(action.operator){
         case PLUS:
             return state + 1;
@@ -38,10 +33,7 @@ export default function Counter (){
                 <button onClick={decrement} className="btn btn-danger">Decrease by 1</button>
                 <button onClick={increment} className="btn btn-success">Increase by 1</button>                
             </div>
-        </div>
-        <div>
-            {/* <ReactMarkdown source={}/> */}
-        </div>
+        </div>      
     </div>
     );
-}
+ }
