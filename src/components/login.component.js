@@ -18,7 +18,7 @@ function loginReducer(state, action) {
       };
     }
     case 'error': { return {
-        ...state, error: 'Invalid username or password!', isLoggedIn: false, isLoading: false, 
+        ...state, isLoggedIn: false, isLoading: false, error: 'Invalid username or password!',
         username: "", password: ""
       };
     }
