@@ -11,10 +11,18 @@
   border-radius: 10px;;
 }
 .login-container{
+  position:relative;
   padding:1rem;
   margin-top:32px !important;
   width:300px;
   margin:auto;
   height:350px;
-  border-radius: 10px;;
+  border-radius: 10px;  
+}
+.login-form-content{
+  position:absolute;
+  bottom:10px;
+  left:auto;
+  width:90%;
+  
 }
