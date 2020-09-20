@@ -74,11 +74,11 @@ export default function LoginUseReducer() {
                     <p className="text-center">Login</p>
                     {error && <p className="text-center text-danger">{error}</p>}
                     <div className="login-form-content">
-                        <input type='text' placeholder='username / admin' value={username} onChange={onChangeUsername} className="form-control" required/>
-                        <input type='password' placeholder='password / 12345678' value={password} onChange={onChangePassword} className="form-control" required/>
+                        <input type="text" placeholder="username / admin" value={username} onChange={onChangeUsername} className="form-control" required/>
+                        <input type="password" placeholder="password / 12345678" value={password} onChange={onChangePassword} className="form-control" required/>
                     
-                        <button type='submit' className="btn btn-primary form-control" disabled={isLoading}>
-                        {isLoading ? 'Logging in...' : 'Login'}
+                        <button type="submit" className="btn btn-primary form-control" disabled={isLoading}>
+                        {isLoading ? "Logging in..." : "Login"}
                     </button>
                     </div>
                 </form>
