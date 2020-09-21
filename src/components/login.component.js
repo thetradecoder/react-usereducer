@@ -23,7 +23,7 @@ function loginReducer(state, action) {
       };
     }
     case 'logout': { return {
-        ...state, username:"", password:"", isLoggedIn: false, error:""
+        ...state, username:"", password:"", isLoading:false, isLoggedIn: false, error:""
       };
     }
     default: 
