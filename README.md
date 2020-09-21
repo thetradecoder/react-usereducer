@@ -1,6 +1,6 @@
 # React Hooks - useReducer
 
-## Counter
+## counter app code
 ```
 import React, {useReducer} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
