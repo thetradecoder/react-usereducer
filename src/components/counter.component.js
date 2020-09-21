@@ -1,12 +1,6 @@
 import React, {useReducer} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-// import ReactMarkdown from 'react-markdown';
-// import counterText from './counter-markdown.component.js'
-
-
-
-
 
 const PLUS ="PLUS";
 const MINUS = "MINUS";
@@ -39,10 +33,7 @@ export default function Counter (){
                 <button onClick={decrement} className="btn btn-danger">Decrease by 1</button>
                 <button onClick={increment} className="btn btn-success">Increase by 1</button>                
             </div>
-        </div>
-        <div>
-            {/* <ReactMarkdown source={counterText}/> */}
-        </div>
+        </div>       
     </div>
     );
 }
