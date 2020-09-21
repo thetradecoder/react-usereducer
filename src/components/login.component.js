@@ -15,7 +15,7 @@ function loginReducer(state, action) {
     }
     case 'success': {return {
         ...state, isLoading: false, isLoggedIn:true, error:""
-      };
+      }; 
     }
     case 'error': { return {
         ...state, isLoggedIn: false, isLoading: false, error: 'Invalid username or password!',
@@ -55,7 +55,7 @@ export default function LoginUseReducer() {
 
     try {
       await userAccess({ username, password });
-      dispatch({ type: 'success' });
+      dispatch({ type: 'success' });      
     } catch (error) {
       dispatch({ type: 'error' });
     }
