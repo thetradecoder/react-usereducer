@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-usereducer/static/css/main.50f60355.chunk.css",
-    "main.js": "/react-usereducer/static/js/main.77fc13a8.chunk.js",
-    "main.js.map": "/react-usereducer/static/js/main.77fc13a8.chunk.js.map",
+    "main.js": "/react-usereducer/static/js/main.d2d6b911.chunk.js",
+    "main.js.map": "/react-usereducer/static/js/main.d2d6b911.chunk.js.map",
     "runtime-main.js": "/react-usereducer/static/js/runtime-main.5fc61e4e.js",
     "runtime-main.js.map": "/react-usereducer/static/js/runtime-main.5fc61e4e.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/react-usereducer/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.52ca9f36.chunk.js": "/react-usereducer/static/js/2.52ca9f36.chunk.js",
     "static/js/2.52ca9f36.chunk.js.map": "/react-usereducer/static/js/2.52ca9f36.chunk.js.map",
     "index.html": "/react-usereducer/index.html",
-    "precache-manifest.df627ff128e1548e11d27e82208d36e3.js": "/react-usereducer/precache-manifest.df627ff128e1548e11d27e82208d36e3.js",
+    "precache-manifest.4f29dfa82d3bbca10ae685463043bf30.js": "/react-usereducer/precache-manifest.4f29dfa82d3bbca10ae685463043bf30.js",
     "service-worker.js": "/react-usereducer/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/react-usereducer/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.50f60355.chunk.css.map": "/react-usereducer/static/css/main.50f60355.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.52ca9f36.chunk.js",
     "static/css/main.50f60355.chunk.css",
-    "static/js/main.77fc13a8.chunk.js"
+    "static/js/main.d2d6b911.chunk.js"
   ]
 }
