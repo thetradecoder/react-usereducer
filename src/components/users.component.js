@@ -1,7 +1,12 @@
 export default async function userAccess({ username, password }) {
-    return new Promise((resolve, reject) => {
+
+
+  const userdata = 'admin';
+  const userpassword = '12345678';
+    
+  return new Promise((resolve, reject) => {
       setTimeout(() => {
-        if (username === 'admin' && password === '12345678') {
+        if (username === userdata && password === userpassword) {
           resolve();
         } else {
           reject();
